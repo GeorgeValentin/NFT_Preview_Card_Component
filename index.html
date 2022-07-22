@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <title>NFT preview card component</title>
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -10,19 +12,66 @@
   <!-- CSS StyleSheets -->
   <link rel="stylesheet" href="./dist/css/styles.css">
 
-  <title>NFT preview card component</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
-  Equilibrium #3429
+  <main class="nft-preview-card flex flex-column centered-flex-container">
+    <article class="nft-preview-card_container rounded-borders">
 
-  Our Equilibrium collection promotes balance and calm.
+      <div class="nft-preview-card_container_image text-centered">
+        <img class="rounded-borders" src="./images/image-equilibrium.jpg" alt="header-img" />
+      </div>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+      <div class="nft-preview-card_container_title">
+        Equilibrium #3429
+      </div>
 
+      <div class="nft-preview-card_container_description">
+        Our Equilibrium collection promotes balance and calm.
+      </div>
+
+      <div class="nft-preview-card_container_values flex flex-row">
+
+        <div class="container-values-amount flex flex-row centered-flex-container values-content">
+
+          <img class="container-values-amount_img" src="./images/icon-ethereum.svg" alt="eth-img" />
+
+          <span class="container-values-amount_content">
+            0.041 ETH
+          </span>
+
+        </div>
+        
+        <div class="container-values-duration flex flex-row centered-flex-container values-content">
+
+          <img class="container-values-duration_img" src="./images/icon-clock.svg" alt="time-img" />
+          
+          <span class="container-values-duration_content">
+            3 days left
+          </span>
+          
+        </div>
+
+      </div>
+
+      <div class="author-container">
+
+        <div class="author-container_img">
+          <img src="./images/image-avatar.png" alt="profile-img" />
+        </div>
+          
+        <div class="author-container_content">
+          Creation of Jules Wyvern
+        <div>
+
+      </div>
+
+    </article>
+  </main>
 </body>
 </html>

@@ -1,0 +1,48 @@
+.nft-preview-card {
+    height: inherit;
+    width: 24%;
+    margin: auto;
+
+    &_container {
+        background-color: $very-dark-blue-card;
+        color: $white;
+        height: 51%;
+
+        &_image {
+            width: 93%;
+            padding: 1rem 0 0;
+            margin: auto auto 0.8rem;
+
+            img {
+                width: inherit;
+            }
+        }
+
+        &_title {
+            font-weight: 600;
+            padding-left: 1.1rem;
+            margin-bottom: 0.85rem;
+        }
+
+        &_description {
+            color: $soft-blue;
+            font-size: 0.85rem;
+            font-weight: 300;;
+            padding-left: 1.1rem;
+            margin-bottom: 0.8rem;
+        }
+
+        &_values {
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 0.85rem;
+            margin-bottom: 1rem;
+        }
+
+        .author-container {
+
+            
+        }
+
+    }
+}
