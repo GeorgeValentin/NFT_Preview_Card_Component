@@ -115,4 +115,10 @@ body {
 }
 .nft-preview-card_container .author-container_content_name:hover {
   color: hsl(178deg, 100%, 50%);
+}
+
+@media (max-width: 375px) {
+  .nft-preview-card {
+    width: 78%;
+  }
 }/*# sourceMappingURL=styles.css.map */
